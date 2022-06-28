@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function Label(props) {
   return (
     <div className="md:w-1/3 md:flex md:justify-start">
