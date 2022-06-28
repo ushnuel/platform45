@@ -61,7 +61,7 @@ const Form = () => {
       <div className="md:flex md:items-center md:mb-3 mb-6">
         <Label label="Date of Birth" />
         <div className="md:w-2/3 relative flex items-center justify-end">
-          <img src={calender} alt="calender" className='absolute pointer-events-none mr-5' />
+          <img src={calender} alt="calender" className='absolute pointer-events-none mr-7 sm:mr-5' />
           <Input 
             onChange={(e) => setDateOfBirth(e.target.value)} 
             value={dateOfBirth} 

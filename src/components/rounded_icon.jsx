@@ -5,7 +5,7 @@ const RoundedIcon = (props) => {
   const IconObject = props.icon ? { icon: props.icon, inputType: "gender" } : { icon: card, inputType: "membership" };
   
   return (
-    <div type='button' className={`${props.className} flex items-center mr-3`} onClick={props.onClick}>
+    <div className={`${props.className} flex items-center mr-3 mt-3`} onClick={props.onClick}>
       <div className={'bg-white md:bg-paleGrey hover:bg-cloudyBlue rounded-full justify-center flex items-center '
        + (props.selected ? "bg-cloudyBlue md:bg-cloudyBlue" : "")}>
         <img src={IconObject.icon} alt="alt" className={'w-4/5 m-3 ' + (IconObject.inputType === "membership" ? "md:w-3/5 md:mx-4" : "md:mx-2 md:w-2/5")} />
