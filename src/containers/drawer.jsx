@@ -8,7 +8,7 @@ const Drawer = () => {
     <main className={
       " md:fixed overflow-hidden z-10 transform ease-in-out " +
       (isOpen
-        ? " transition-all transition-opacity opacity-100 md:translate-x-0 duration-700 md:top-10 md:bottom-10 xl:left-[39%] md:left-[35%] md:w-full lg:w-full xl:w-[79%] lg:left-[36%] "
+        ? " transition-all transition-opacity opacity-100 md:translate-x-0 duration-700 md:top-10 md:bottom-10 xl:left-[39%] md:left-[37%] md:w-full lg:w-full xl:w-[79%] "
         : " transition-all duration-500 opacity-0 md:-translate-x-full hidden sm:block")
     }>
       <article className='pt-14 bg-tangerine pb-32 h-full p-3 md:p-10 md:w-3/5 w-full md:rounded-r-3xl'>
