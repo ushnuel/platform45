@@ -6,7 +6,7 @@ import ExtensionToggleContextProvider from "./context/toggle_extension_context";
 
 function App() {
   return (
-    <main className="bg-charcoalGrey md:flex md:justify-center md:p-10 h-screen w-screen">
+    <main className="bg-charcoalGrey md:flex md:justify-center md:p-[1rem] h-screen w-screen">
       <ExtensionToggleContextProvider>
         <FixedDisplay />
         <Drawer />
